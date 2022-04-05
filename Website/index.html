@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<title>
+			Cezar Portfolio Website	
+		</title>
+		<link rel="stylesheet" 
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" 
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">	
+
+		<link rel="stylesheet" type="text/css" href="css/style_home.css">
+	</head>
+
+	<body>
+
+		<header>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>	
+				</ul>
+			</nav>
+		</header>
+
+		<!--____________________________________________________________Introduction_______________________________________________________-->
+
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <span class="title__name__color">Horătău Cezar</span>
+			</h1>
+			<h3 class="section__subtitle section__subtitle--intro">
+				I like to code
+			</h3>
+			<ul class="social-list--intro">
+				<li class="social-list__item">	<a class="social-list__link" href="https://www.linkedin.com/in/constantin-cezar-hor%C4%83t%C4%83u-253b63220">
+					<i class="fa-brands fa-linkedin"></i> </a> </li>
+				<li class="social-list__item">	<a class="social-list__link" href="https://github.com/HCCCezar">
+					<i class="fa-brands fa-github"></i> </a> </li>
+			</ul>			
+		</section>
+
+		<!--____________________________________________________________About me________________________________________________________-->		
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">Pioneer</p>
+			
+			<div class="about-me__body">
+				<p>I graduated from Ștefan cel Mare University of Suceava after completing Bachelor of  in Computer Science.</p>
+				<p>Since I was little child I enjoyed to build different things with the pieces that I had, now I continue to do so by creating software programs and exploring programming languages.</p>
+			</div>
+
+			<img src="img/dev-cezar-01.jpg" class="about-me__img">
+		</section>
+
+		<!--____________________________________________________________My Work________________________________________________________-->		
+
+		<section class="my-work" id="work">
+			<h2 class="section__title section__title--work">My Work</h2>
+			<p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+			<div class="portfolio">
+				<!-- Portfolio item 01 -->
+				<a href="portfolio-item-android_media_player.html" class="portfolio__item">
+					<img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+				</a>
+
+				<!-- Portfolio item 02 -->
+				<a href="" class="portfolio__item">
+					<img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+				</a>
+												
+			</div>
+		</section>
+
+		<!--____________________________________________________________Footer________________________________________________________-->		
+		<footer class="footer">			
+			<a href="mailto:horatau.cezar@gmail.com" class="footer__link">horatau.cezar@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">	<a class="social-list__link" href="https://www.linkedin.com/in/constantin-cezar-hor%C4%83t%C4%83u-253b63220">
+					<i class="fa-brands fa-linkedin"></i> </a> </li>
+				<li class="social-list__item">	<a class="social-list__link" href="https://github.com/HCCCezar">
+					<i class="fa-brands fa-github"></i> </a> </li>
+			</ul>
+		</footer>
+
+		<script src="js/index.js"></script>
+
+	</body>
+	
+</html>
